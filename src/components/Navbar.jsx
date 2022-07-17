@@ -1,6 +1,9 @@
 import React from 'react'
 import './navbar.css'
-import SearchIcon from '@mui/icons-material/Search';
+import { Search } from '@mui/icons-material';
+import styled from 'styled-components';
+import { Badge } from '@mui/material';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 
 
@@ -8,19 +11,36 @@ const Navbar = () => {
   return (
     <div className='nav__container'>
       <div className="nav__container-wrapper">
+
         <div className="nav__left">
           <div className="nav__left-language">
             EN
           </div>
           <div className="nav__left-search">
-            <SearchIcon />
+            <div className="nav__left-searchinput">
+              Search
+            </div>
+            <Search style={{ color: "gray", fontSize: 16 }} />
           </div>
         </div>
+
+
         <div className="nav__center">
-          Center
+          <div className="nav__center-logo">
+            LAMA.
+          </div>
         </div>
+
         <div className="nav__right">
-          Right
+          <div className="nav__right-menuitem">
+            <div>Register</div>
+            <div>Signin</div>
+            <div>
+              <Badge badgeContent={4} color="primary">
+                <ShoppingCartOutlinedIcon />
+              </Badge>  
+            </div>
+          </div> 
         </div>
       </div>
     </div>
