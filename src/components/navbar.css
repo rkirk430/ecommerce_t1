@@ -1,4 +1,38 @@
-/* .nav__container {
+.nav__container {
     height: 60px;
-    background-color: black;
-} */
+}
+
+.nav__container-wrapper {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav__left-language {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav__left-search {
+    border: 0.5px solid lightgray;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+.nav__center {
+    flex: 1;
+}
+
+.nav__right {
+    flex: 1;
+}
