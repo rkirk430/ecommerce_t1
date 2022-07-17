@@ -1,5 +1,6 @@
-import { ListItem } from '@mui/material'
 import React from 'react'
+import './categoryitem.css'
+
 
 const CategoryItem = ({item}) => {
   return (
