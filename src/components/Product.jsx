@@ -1,5 +1,7 @@
 import { Circle, FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from '@mui/icons-material'
 import React from 'react'
+import './product.css'
+
 
 const Product = ({item}) => {
   return (
