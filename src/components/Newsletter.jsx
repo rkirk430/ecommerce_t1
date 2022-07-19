@@ -1,4 +1,6 @@
+import { Send } from '@mui/icons-material'
 import React from 'react'
+import "./newsletter.css"
 
 const Newsletter = () => {
   return (
@@ -12,8 +14,10 @@ const Newsletter = () => {
         </div>
 
         <div className="newsletter__container-inputs">
-            <input placeholder='Your Email'/>
-            <button className='newsletter__container-button'/>
+            <div className="inputtag">
+                <input placeholder='Your Email'/>
+            </div>
+            <button className='newsletter__container-button'><Send /></button>
         </div>
     </div>
   )

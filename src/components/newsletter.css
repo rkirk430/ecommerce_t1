@@ -1,0 +1,41 @@
+.newsletter__container {
+    display: flex; /* Puts all items horizonal across page */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.newsletter__container-header {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.newsletter__container-text {
+    font-size: 24px;
+    font-weight: 300px;
+    margin-bottom: 20px;
+}
+
+.newsletter__container-inputs {
+    width: 50%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+
+.inputtag {
+    border: none;
+    /*flex: 8 indicates how wide you want it to be. Higher # = takes up more space up to 12*/
+    flex: 8;
+    padding-left: 20px;
+    padding-top: 10px;  /* I put this in */
+}
+
+.newsletter__container-button {
+    flex: 1;
+    border: none;
+    background-color: teal;
+    color: white;
+}
