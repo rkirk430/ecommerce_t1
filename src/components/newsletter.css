@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 60vh;
+    background-color: #fcf5f5;
 }
 
 .newsletter__container-header {
