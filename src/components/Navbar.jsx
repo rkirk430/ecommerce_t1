@@ -16,31 +16,31 @@ const Navbar = () => {
           <div className="nav__left-language">
             EN
           </div>
+
           <div className="nav__left-search">
             <div className="nav__left-searchinput">
               Search
             </div>
             <Search style={{ color: "gray", fontSize: 16 }} />
           </div>
+
         </div>
 
 
         <div className="nav__center">
-          <div className="nav__center-logo">
+          <h1 className="nav__center-logo">
             LAMA.
-          </div>
+          </h1>
         </div>
 
         <div className="nav__right">
-          <div className="nav__right-menuitem">
-            <div>Register</div>
-            <div>Signin</div>
+            <div className='nav__right-menuitem'>REGISTER</div>
+            <div className='nav__right-menuitem'>SIGNIN</div>
             <div>
-              <Badge badgeContent={4} color="primary">
+              <Badge badgeContent={4} color="primary" className='nav__right-menuitem'>
                 <ShoppingCartOutlinedIcon />
               </Badge>  
             </div>
-          </div> 
         </div>
       </div>
     </div>
