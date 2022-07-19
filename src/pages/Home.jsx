@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar'
 import Newsletter from '../components/Newsletter'
 import Products from '../components/Products'
 import Footer from '../components/Footer'
+import Slider from '../components/Slider'
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
     <>
         <Announcement />
         <Navbar />
+        <Slider />
         <Categories />
         <Products />
         <Newsletter />
