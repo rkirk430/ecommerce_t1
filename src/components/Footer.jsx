@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Pinterest, Twitter } from '@mui/icons-material'
+import { Facebook, Instagram, MailOutline, Payment, Phone, Pinterest, Room, Twitter } from '@mui/icons-material'
 import React from 'react'
 import "./footer.css"
 
@@ -33,6 +33,14 @@ const Footer = () => {
         </div>
 
         <div className="footer__right">
+            <h3 className="footer__right-h3">Contact</h3>
+            <div className="footer__right-contactitems">
+                <Room style={{marginRight: "10px"}}/> 223 State St. Trenton, NJ 93939
+                <Phone style={{marginRight: "10px"}}/> +1 606 399 2940
+                <MailOutline style={{marginRight: "10px"}}/> contact@sven.sven
+            </div>
+            <Payment src="https://i.ibb.co/Qfvn4z6/payment.png"/>
+
 
         </div>
     </div>

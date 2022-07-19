@@ -88,3 +88,15 @@
     width: 50%;
     margin-bottom: 10px;
 }
+
+
+.footer__right {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer__right-contactitems {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
