@@ -1,8 +1,16 @@
 import React from 'react'
+import Products from "../components/Products"
+import Newsletter from "../components/Newsletter"
+import Footer from "../components/Footer"
+import Navbar from "../components/Navbar"
+import Announcement from "../components/Announcement"
+import "./productlist.css"
 
 const ProductList = () => {
   return (
     <div className="productlist__container">
+      <Navbar />
+      <Announcement />
       <h1 className="productlist-title"> Dresses</h1>
       <div className="productlist__filtercontainer">
 
@@ -39,10 +47,10 @@ const ProductList = () => {
             <option>Price (desc)</option>
           </select>
         </div>
-
-
-
       </div>
+      <Products />
+      <Newsletter />
+      <Footer />
     </div>
   )
 }
