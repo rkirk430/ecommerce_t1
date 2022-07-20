@@ -36,10 +36,16 @@ const Footer = () => {
             <h3 className="footer__right-h3">Contact</h3>
             <div className="footer__right-contactitems">
                 <Room style={{marginRight: "10px"}}/> 223 State St. Trenton, NJ 93939
+            </div>
+            <div className="footer__right-contactitems">
                 <Phone style={{marginRight: "10px"}}/> +1 606 399 2940
+            </div>
+            <div className="footer__right-contactitems">
                 <MailOutline style={{marginRight: "10px"}}/> contact@sven.sven
             </div>
-            <Payment src="https://i.ibb.co/Qfvn4z6/payment.png"/>
+            <div className="payment">
+                <Payment/> <img src="https://i.ibb.co/Qfvn4z6/payment.png" alt="" /> 
+            </div>
 
 
         </div>
