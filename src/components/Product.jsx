@@ -23,7 +23,6 @@ const Product = ({item}) => {
             <div className="product__container-infoicon">
                 <FavoriteBorderOutlined />
             </div>
-
         </div>
 
 
