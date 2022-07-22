@@ -20,6 +20,7 @@
 
 .productwrapper__infocontainer h1 {
     font-weight: 200;
+    font-size: 30px;
 }
 
 .productwrapper__infocontainer p {
@@ -55,4 +56,45 @@
     background-color: black;
     margin: 0px 5px;
     cursor: pointer;
+}
+
+select {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.productwrapper__cart {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productwrapper__cart-amountcontainer {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.cart-amount {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+}
+
+button {
+    padding: 15px;
+    border: 2px solid teal;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #f8f4f4;
 }

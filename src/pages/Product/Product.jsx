@@ -44,7 +44,7 @@ const Product = () => {
 
                     <div className="productwrapper__cart-amountcontainer">
                         <Remove />
-                        <span>1</span>
+                        <span className='cart-amount'>1</span>
                         <Add />
                     </div>
                     <button>ADD TO CART</button>
